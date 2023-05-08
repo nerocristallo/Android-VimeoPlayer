@@ -223,6 +223,7 @@ public class VimeoPlayer extends WebView {
                 .replace("<LOOP>", String.valueOf(vimeoOptions.loop))
                 .replace("<MUTED>", String.valueOf(vimeoOptions.muted))
                 .replace("<PLAYSINLINE>", String.valueOf(vimeoOptions.originalControls))
+                .replace("<CONTROLS>", String.valueOf(vimeoOptions.originalControls))
                 .replace("<TITLE>", String.valueOf(vimeoOptions.title))
                 .replace("<COLOR>", Utils.colorToHex(vimeoOptions.color))
                 .replace("<BACKGROUND_COLOR>", Utils.colorToHex(vimeoOptions.backgroundColor))
